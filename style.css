@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+ .logo-image {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(your-image-url) no-repeat;
+    width: 180px;
+    height: 236px;
+  }
+.info_generale{
+    background-color: rgb(233, 167, 14);
+    width: 100%;
+    height: 8vh;
+}
+#Brand{
+    color: white;
+ 
+    padding: 8px 15px 8px 8px;
+}
+    
+
+.Phone{
+    color: white;
+  
+ 
+    float: right;
+   padding: 8px 4px;
+}
+li.nav-item{
+    padding: 10px;
+
+
+}
+button.btn{
+    /* background-color: rgb(163, 118, 13); */
+    color: black;
+    border: none;
+}
+button.btn:hover{
+    background-color: rgb(233, 167, 14);
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: rgb(19, 18, 18);
+    border: none;
+   transform: scale(0.9);
+    
+}
+button.btn:active{
+    transform: translateY(3px);
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slide{
+   width: 100%;
+    height: 86vh;
+    opacity: 1;
+   
+}
+.slide:hover{
+   
+   
+    opacity: 0.5;
+    transition: opacity 1s;
+    /* transition: .5s ease; */
+}
+.image_info{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+   
+}
+.image_info1{
+    opacity: 1;
+   color: black;
+}
+button#commander{
+    border-radius: 4px;
+    background-color: #134f07;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+button#commander:hover{
+    padding-right: 15px;
+    font-size: 18px;
+}
+button#commander:active{
+    transform: translateY(2px);
+    padding-right: 22px;
+   
+}
+#heading_line{
+    padding-top: 10vh;
+    /* transform: translate(50%,50%); */
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color:#134f07; 
+    vertical-align: middle;
+    line-height: 30px;
+
+   
+}
+#heading_line ::after{
+    content: "";
+    display: block;
+    width: 31%;
+    height: 2px;
+    background: #000;
+    margin: 0 35%;
+    position: absolute;
+    margin-top: 15px;
+}
+.card-body{
+
+  color: #f1f1f1; 
+}
+.card:hover{
+    transform: translateX(3px);
+    transform: translateY(3px);
+    background-color:   #134f0721;
+
+   
+
+}
+.card_padding{
+    padding: 20px;
+   
+}
+.card-header{
+    margin-right: 130px;
+    color: white;
+    position: fixed;
+  
+}
+.WhoAreWe{
+    max-width: 100%;
+    height: 20%;
+  
+}
+
+#chef_photo:hover{
+    transform: rotateX(360deg);
+}
+
+
+
+#why{
+    width: 80%;
+    padding: 18px;
+    margin-top: 7%;
+    
+    
+    background-color: rgb(116, 111, 111);
+    color: white;
+   /* border-radius: 20px; */
+   border: none;
+   text-align: left;
+   outline: none;
+ 
+   color: #444;
+    
+   
+}
+#why:active ,#why:hover{
+    background-color: #ccc;
+
+}
+#content{
+    
+    background-color: #0f0f0f9d;
+    padding: 0 18px;
+    display: none;
+   
+    /* border-radius: 20px; */
+    width: 80%;
+    height: 10%;
+    transition: width 0.1s ease-in-out;
+   
+    
+}
+.team{
+   position: relative;
+   padding-top: 20px;
+   width: 100%;
+}
+.role{
+    position: absolute;
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  /* width: 100%; Full width */
+  padding: 10px; /* Some padding */
+  border-radius: 3px;
+}
+#contacter_team{
+    background-color: #0000007e;
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.team:hover #team_image{
+    opacity: 0.6;
+}
+.team:hover #contacter_team{
+    opacity: 1;
+}
+#contacter_team:active{
+   transform: scale(1.3);
+   transition: transform 3s ease;
+}
+.text_about_us{
+    width:90%;
+    height:60%;
+    background:rgb(233, 167, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 3px 3px rgba(220, 154, 13, 0.42);
+}
+.title_about_us{
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.counter{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+   margin:  3px;
+   font-size: 1.5vw;
+   
+}
+.counterr{
+   
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
